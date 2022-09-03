@@ -1,0 +1,28 @@
+.Projects__item {
+  display: block;
+  background-color: #fff;
+  padding: 0px;
+  margin: 100px 0px;
+  height: 320px;
+  width: 350px;
+}
+.Projects__image {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+.Projects__link {
+  text-decoration: none;
+}
+.Projects__about {
+  padding: 10px;
+  color: #000;
+}
+.Projects__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}

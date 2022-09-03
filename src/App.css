@@ -1,0 +1,25 @@
+:root {
+  --body: hsl(204, 33%, 97%);
+}
+body {
+  background-color: var(--body);
+}
+span {
+  font-weight: 800;
+  font-size: 1.0em;
+  line-height: 1.0em;
+  padding: 0px 0px 0px 20px;
+}
+ul {
+  list-style-type: disc;
+}
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.Info__title {
+  margin: 0 auto;
+}
